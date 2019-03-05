@@ -13,6 +13,7 @@ package student;
 public class Student {
         public String name;
         public int id;
+        private int age;
 
     /**
      * @return the name
@@ -40,6 +41,20 @@ public class Student {
      */
     public void setId(int id) {
         this.id = id;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
     }
     /**
      * @param args the command line arguments
